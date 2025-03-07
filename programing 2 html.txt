@@ -1,0 +1,48 @@
+<doptype.html>
+      <html> 
+
+<head> 
+      <title>Accessible table</title>
+</head>
+<body>  
+   <header>
+   <h1>HTML TABLE</h1>   
+   </header> 
+   <main>
+      <table>
+            <caption>student info</caption>
+            <thead> 
+                  <tr >
+                  
+                 <th scope=""col>id</th>
+                  <th>name</th>
+                  <th>gpa</th>
+            </tr>
+            </thead>
+            <tbody>
+                  <tr>
+                        <td>1</td>
+                        <td>maruf</td>
+                        <td>4.72</td>
+                  </tr>
+                  <tr>
+                        <td>2</td>
+                        <td>sifat</td>
+                        <td>4.72</td>
+                  </tr>
+                  <tr>
+                        <td>3 </td>
+                        <td>safiq</td>
+                        <td>4.72</td>
+                  </tr>
+            </tbody>
+      </table>
+   </main>    
+</body>
+
+
+
+
+
+
+      </html>

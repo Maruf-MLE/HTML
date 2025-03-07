@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 300px;
+            height: auto;
+            margin: 0 auto;
+            border: 5px solid salmon;
+            border-radius: 50%;
+            display: block;
+            
+        }
+        img{
+            animation-name: img ;
+            animation-duration: 10s;
+            animation-fill-mode:forwards;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position: relative;
+        }
+        @keyframes img{
+            0%{
+                max-width: 200px;
+                border-color: orange;
+                left: 200px;
+                top: 0;
+            }
+            50%{
+                max-width: 300px;
+                border-color: red;
+                bottom: 200px;
+                left:0% ;
+            }
+            75%{
+                max-width: 500px;
+                border-color: rgb(243, 255, 16);
+                right: 200px;
+                bottom: 0px;
+            }
+            100%{
+                max-width: 200px;
+                border-color: rgb(58, 61, 15);
+                top: 200px;
+                right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Eopsaltria_australis_-_Mogo_Campground.jpg/1200px-Eopsaltria_australis_-_Mogo_Campground.jpg" alt="">
+</body>
+</html>
